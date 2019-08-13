@@ -8,8 +8,10 @@
   <title>Express Skills</title>
 </head>
 <body>
-  <h1>Skill #<%= skillNum %></h1>
-  <h3><%= skill.skill %></h3>
-  <a href="/todos/<%= todoNum - 1 %>/edit">Edit</a>
+  <h1>New Skill</h1>
+  <form action="/todos" method="POST" autocomplete="off">
+    <input type="text" name="todo">
+    <button type="submit">Save Skill</button>
+  </form>
 </body>
 </html>
