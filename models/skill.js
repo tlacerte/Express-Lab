@@ -10,9 +10,9 @@ const skills = [
   };
   
   function getOne(id) {
-    return todos[id];
+    return skills[id];
   }
   
   function getAll() {
-    return todos;
+    return skills;
   }
